@@ -1,0 +1,115 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+header {
+    font-family: Arial, sans-serif;
+    /* background-color: #114B5F; */
+    background-image: url('matrix2.gif'); /* Ruta a tu archivo GIF */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-text {
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin: auto;
+}
+
+h2 {
+    color: #1A936F;
+    font-size: 20px;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.column {
+    width: 50%; 
+    text-align: justify;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+
+.column.center {
+    margin: auto;
+}
+
+.github ul{
+    margin-left: 5px;
+}
+
+.title {
+    font-weight: bold;
+    text-align: left;
+}
+
+footer {
+    /* background-color: #C6DABF; */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline-flex;
+    margin-right: 20px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.social-links img {
+    width: 24px;
+    margin-right: 10px;
+
+}
