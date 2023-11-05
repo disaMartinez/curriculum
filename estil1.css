@@ -36,7 +36,7 @@ h2 {
     font-size: 20px;
 }
 
-.profile-image {
+.image {
     width: 200px;
     height: 200px;
     overflow: hidden;
@@ -49,7 +49,7 @@ img {
     height: 100%;
 }
 
-.main-content {
+.rectangle {
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -89,24 +89,24 @@ footer {
 
 }
 
-.social-links {
+.social{
     list-style: none;
     padding: 0;
 }
 
-.social-links li {
+.social li {
     display: inline-flex;
     margin-right: 20px;
 }
 
-.social-links a {
+.social a {
     text-decoration: none;
     color: white;
     display: flex;
     align-items: center;
 }
 
-.social-links img {
+.social img {
     width: 24px;
     margin-right: 10px;
 
